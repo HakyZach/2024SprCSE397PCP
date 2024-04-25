@@ -15,7 +15,7 @@ classDiagram
       class DevEnvironment{
           +String Lead()
           +String TeamMember(Junwoo Jeong)
-          +String TeamMember()
+          +String TeamMember(Adam Lynn)
       }
       class RuntimeEnvironment{
           +String Lead()
@@ -40,11 +40,12 @@ classDiagram
       }
       class BackEnd{
           +String Lead()
-          +String TeamMember()
+          +String TeamMember(Adam Lynn)
 
       }
       class Database{
           +String Lead()
           +String TeamMember(Junwoo Jeong)
+            +String TeamMember(Adam Lynn)
       }
 ```
